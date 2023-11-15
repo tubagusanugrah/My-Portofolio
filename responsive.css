@@ -1,0 +1,71 @@
+/* responsive 1*/
+@media screen and (max-width: 600px) {
+    #head {
+        width: 2500px;
+    }
+
+    .emas {
+        width: 1499px;
+    }
+    
+    #kotak {
+        width: 370%;
+    }
+
+    #kumpulan {
+        width: 370%;
+    }
+
+    #bawah {
+        padding-top: 80px;
+        width: 380%;
+    }
+
+    #anotherinformation {
+        width: 375%;
+    }
+
+    .another1 {
+        width: 300px;
+    }
+
+    .another2 {
+        width: 300px;
+    }
+
+    .another3 {
+        width: 300px;
+    }
+
+    #idk {
+        width: 370%;
+    }
+
+    .kotak1 {
+        width: 14900px;
+    }
+
+    .fotosekolah img {
+        width: 330px;
+    }
+
+    #kotak-2 {
+        width: 1500px;
+    }
+
+    .another1 {
+        width: 500px;
+    }
+
+    .another1 li {
+        font-size: 30px;
+    }
+
+    .another2 {
+        width: 600px;
+    }
+
+    .another3 {
+        width: 700px;
+    }
+}

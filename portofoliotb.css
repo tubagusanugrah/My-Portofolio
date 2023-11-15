@@ -1,0 +1,397 @@
+* {
+    padding: 0 ;
+    margin: 0;
+}
+
+#head {
+    display: flex;
+    position: relative;
+    background-color: rgb(21, 21, 90);
+    width: 1900px;
+    height: 100px;
+    position: fixed;
+    z-index: 10;
+}
+
+.emas {
+    display: flex;
+    background-color: #ffdd46;
+    height: 5px;
+    width: 1900px;
+    margin: auto;
+    position: relative;
+}
+
+h2 {
+    color: white;
+    font-family: 'Roboto Slab';
+    float: left;
+    padding-left: 45px;
+    padding-top: 8px;
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: default;
+}
+
+#top-menu li {
+    text-decoration: none;
+    list-style-type: none;
+    float: right;
+    margin: 25px;
+    font-size: 18px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#kotak {
+    color: black;
+    border: 1px solid;
+    background-color: rgb(21, 21, 90);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px;
+    margin: 30px;
+    height: 700px;
+    margin-top: 150px;
+    width: auto;
+}
+
+.nama {
+    color: white;
+    font-family: 'Metal Mania';
+    padding-top: 200px;
+    padding-left: 140px;
+    font-size: 50px;
+    transition: transform .2s;
+}
+
+hr {
+    width: 500px;
+    margin-left: 100px;
+}
+
+#kotak-2 {
+    display: flex;
+    position: relative;
+    color: black;
+    border: 1px solid;
+    background-color: #ffb700;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px;
+    margin: 30px;
+    height: 650px;
+    width: 1200px;
+    transition: transform .2s;
+}
+
+.kotak-3 {
+    display: flex;
+    position: relative;
+    color: black;
+    border: 1px solid;
+    background-color: #ffb700;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px;
+    margin: 30px;
+    height: 650px;
+    width: 575px;
+    transition: transform .2s;
+}
+
+#kumpulan {
+    display: flex;
+    color: black;
+    border: 1px solid;
+    background-color: rgb(21, 21, 90);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px;
+    margin: 30px;
+    height: 700px;
+    margin-top: 125px;
+    width: auto;
+}
+
+article {
+    padding-top: 150px;
+    color: white;
+    font-family: 'Lora';
+    font-size: 20px;
+}
+
+.fotosendiri {
+    display: flex;
+    border-radius: 20px;
+    width: 325px;
+    height: 550px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin: 50px
+}
+
+.tb {
+    margin-left: 125px;
+    font-size: 30px;
+}
+
+
+#top-menu {
+    font-family: 'Roboto Slab';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#top-menu a {
+	color: rgb(233, 233, 233);
+	text-decoration: none;
+	font-size: 1.5rem;
+	margin: 20px;
+	padding: 15px, 30px;
+	background: rgba(255, 255, 255, 0.1);
+	position: relative;
+	transition: all .4s;
+    border-radius: 100px;
+}
+
+#top-menu a:hover {
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.24);
+}
+
+#top-menu a::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background:  linear-gradient(to top, #ffb700, #1808ff);
+	z-index: -1;
+	transition: all .4s;
+}
+
+#top-menu a:hover::before {
+	height: 50%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#kotak-2:hover {
+    transform: scale(1.1);
+}
+
+.kotak-3:hover {
+    transform: scale(1.1);
+}
+
+.kotak-4:hover {
+    transform: scale(1.1);
+}
+
+.nama:hover {
+    transform: scale(1.03);
+}
+
+h3 {
+    position: relative;
+    font-size: 50px;
+    color: white;
+    font-family: 'Poppins';
+    padding-left: 110px;
+    padding-top: 20px;
+}
+
+img {
+    display: flex;
+    position: relative;
+    width: 325px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+#bawah {
+    display: flex;
+    position: relative;
+    background-color: rgb(21, 21, 90);
+    height: 120px;
+    width: 1900px;
+}
+
+.self {
+    display: flex;
+    position: relative;
+    float: right;
+    margin-top: 100px;
+    margin-right: 150px;
+}
+
+#anotherinformation {
+    display: flex;
+    color: black;
+    border: 1px solid;
+    background-color: rgb(21, 21, 90);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px;
+    margin: 30px;
+    height: 700px;
+    margin-top: 125px;
+    width: auto;
+}
+
+.another1 {
+    display: flex;
+    position: relative;
+    color: black;
+    border: 1px solid;
+    background-color: #ffb700;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px;
+    margin: 30px;
+    height: 650px;
+    width: 575px;
+    transition: transform .2s;
+}
+
+.another2 {
+    display: flex;
+    position: relative;
+    color: black;
+    border: 1px solid;
+    background-color: #ffb700;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px;
+    margin: 30px;
+    height: 650px;
+    width: 575px;
+    transition: transform .2s;
+}
+
+.another3 {
+    display: flex;
+    position: relative;
+    color: black;
+    border: 1px solid;
+    background-color: #ffb700;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px;
+    margin: 30px;
+    height: 650px;
+    width: 575px;
+    transition: transform .2s;
+}
+
+.another1:hover {
+    transform: scale(1.1);
+}
+
+.another2:hover {
+    transform: scale(1.1);
+}
+
+.another3:hover {
+    transform: scale(1.1);
+}
+
+body {
+    background: url(tebeee.jpg);
+}
+
+span {
+    color: #ffb700;
+}
+
+.another1 li {
+    display: block;
+    font-size: 40px;
+    margin-right: 250px;
+    margin-top: 100px;
+    font-family: 'Roboto Slab';
+    color: white;
+    padding-left: 40px;
+}
+
+.another1 p {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    font-family: 'Metal Mania';
+    color: white;
+}
+
+.another2 p {
+    padding-left: 175px;
+    font-size: 50px;
+    margin-top: 10px;
+    font-family: 'Metal Mania';
+    color: white;
+}
+
+.another2 img {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.another3 p {
+    padding-left: 145px;
+    font-size: 50px;
+    margin-top: 10px;
+    font-family: 'Metal Mania';
+    color: white;
+}
+
+.another3 img {
+    display: flex;
+    width: 370px;
+    border-radius: 20px;
+    margin: -10%;
+    padding-top: 150px;
+}
+
+
+#idk {
+    display: flex;
+    color: black;
+    border: 1px solid;
+    background-color: rgb(21, 21, 90);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px;
+    margin: 30px;
+    margin-top: 100px;
+    height: 700px;  
+}
+
+.kotak1 {
+    display: flex;
+    position: relative;
+    color: black;
+    border: 1px solid;
+    background-color: #ffb700;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px;
+    margin: 30px;
+    height: 650px;
+    width: 2000px;
+    transition: transform .2s;
+}
+.fotosekolah {
+    display: flex;
+}
+
+.fotosekolah img {
+    height: 300px;
+    margin-top: 120px;
+    padding: 25px;
+    margin-right: 55px;
+}
+
+.kotak1:hover {
+    transform: scale(1.02);
+}
